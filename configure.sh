@@ -12,7 +12,8 @@ sudo apt-get install gstreamer1.0-tools gstreamer1.0-alsa \
      libgstreamer-plugins-base1.0-dev \
      libgstreamer-plugins-good1.0-dev \
      libgstreamer-plugins-bad1.0-dev \
-     doxygen asciidoc curl cabextract wireshark ssh
+     doxygen asciidoc curl cabextract \
+     wireshark ssh python-pip gtk2-engines gtk2-engines-pixbuf
 
 # Utworzenie katalogu i przejście do niego
 mkdir Repo
