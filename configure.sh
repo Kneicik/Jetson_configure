@@ -47,5 +47,6 @@ cd ..
 # Klonowanie i budowanie wiringJet
 git clone https://github.com/wiringGpio/wiringJet.git
 cd wiringJet
+cd wiringJet
 sudo make
 sudo make install
