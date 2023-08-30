@@ -50,3 +50,9 @@ cd wiringJet
 cd wiringJet
 sudo make
 sudo make install
+
+# Konfiguracja VNC
+mkdir -p ~/.config/autostart
+cp /usr/share/applications/vino-server.desktop ~/.config/autostart/.
+gsettings set org.gnome.Vino prompt-enabled false
+gsettings set org.gnome.Vino require-encryption false
